@@ -1,0 +1,18 @@
+[input]
+history_length = 4
+screen_height = 84
+screen_width = 84
+history = 4
+max_epoch = 50
+max_step = 800000
+learn_start = 2000
+#2000
+train_frequency = 4
+test_step = 10000
+ep_end_t = 1000000
+target_q_update = 10000
+GAMMA = 0.99
+[model]
+memory_size = 100000
+batch_size = 32
+replace_counter = 100
